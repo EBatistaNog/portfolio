@@ -11,6 +11,7 @@ Este repositório contém um projeto de portfólio pessoal desenvolvido apenas c
 - Botões de ação para visualizar projetos e solicitar orçamento
 - Estilos utilizando Google Fonts
 - Estrutura simples e de fácil personalização
+- Botão para voltar ao topo da página
 
 ### Como executar
 1. Clone este repositório
@@ -30,6 +31,7 @@ This repository contains a personal portfolio project built with plain HTML and 
 - Action buttons to view projects and request a quote
 - Styling powered by Google Fonts
 - Simple structure that is easy to customize
+- Back-to-top button for quick navigation
 
 ### How to run
 1. Clone this repository

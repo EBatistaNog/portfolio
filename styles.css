@@ -10,7 +10,7 @@ body{
 }
 
 html{
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 /* INICIO HEADER */
@@ -92,7 +92,7 @@ html{
 /* INICIO ABOUT */
 .about{
  background-color: #FFFFFF;
- width: 100%; 
+ width: 100%;
  padding-left: 10%;
  padding-right: 10%;
  padding-top: 80px;
@@ -171,6 +171,28 @@ html{
   cursor: pointer;
 }
 /* FIM PROJECTS */
+
+/* BOTAO VOLTAR AO TOPO */
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 50%;
+  background-color: #181818;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* INICIO RODAPE */
 footer{

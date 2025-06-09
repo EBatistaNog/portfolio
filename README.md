@@ -16,6 +16,7 @@ Este repositório contém um projeto de portfólio pessoal desenvolvido apenas c
 1. Clone este repositório
 2. Abra o arquivo `index.html` em seu navegador
 3. Opcionalmente utilize uma extensão de servidor local como *Live Server* durante o desenvolvimento
+![image](https://github.com/user-attachments/assets/e42c0680-0216-4a34-96a9-4fb24fc8862d)
 
 ---
 

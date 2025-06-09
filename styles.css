@@ -214,3 +214,97 @@ footer p {
   margin-left: 12px;
 }
 /* FIM RODAPE */
+/* ======= RESPONSIVIDADE ======= */
+
+/* Tablet e abaixo */
+@media (max-width: 768px) {
+  /* HEADER: empilha os itens e reduz padding */
+  .nav-list {
+    margin-right: 10px;
+  }
+  .nav-list a {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  /* MAIN: coluna em vez de linha */
+  .main {
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 5%;
+    height: auto;
+  }
+  .main h1 {
+    font-size: 2.5rem; /* ~40px */
+  }
+  .main p {
+    font-size: 1.1rem; /* ~18px */
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT: coluna e ajuste de largura */
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+  }
+  .about div,
+  .about img {
+    max-width: 100%;
+    padding: 0;
+  }
+  .about div {
+    margin-bottom: 30px;
+  }
+
+  /* PROJECTS: imagens maiores e quebram linha */
+  .project-list {
+    flex-wrap: wrap;
+  }
+  .projects img {
+    width: 45%;
+    margin: 2.5%;
+  }
+}
+
+/* Celular */
+@media (max-width: 480px) {
+  /* HEADER: fonte menor, padding menor */
+  .nav-list a {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  /* MAIN: títulos e botões menores */
+  .main h1 {
+    font-size: 2rem; /* ~32px */
+  }
+  .main p {
+    font-size: 1rem; /* ~16px */
+  }
+  .call-to-action {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  /* ABOUT: texto e imagem ainda ocupam 100% */
+  .about {
+    padding: 40px 5%;
+  }
+
+  /* PROJECTS: imagem única por linha */
+  .projects img {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* RODAPÉ: centraliza conteúdo */
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5%;
+  }
+  footer p {
+    margin: 10px 0 0 0;
+  }
+}
